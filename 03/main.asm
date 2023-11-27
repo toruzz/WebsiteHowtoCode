@@ -101,7 +101,7 @@
 	push hl
 	ld hl,InitBGPal
 	call SET_BGPAL
-	ld hl,InitOBJPal
+	ld hl,InitBGPal+PALSIZE
 	call SET_OBJPAL
 	pop hl
 	call $4B30	; Replaced code

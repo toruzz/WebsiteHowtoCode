@@ -10,6 +10,7 @@
 .DEFINE OCPD $FF6B				; Sprite Palette Data (GBC)
 
 ; Constants
+.DEFINE PALSIZE					$40
 .DEFINE CHANGE_BANK				$2100
 
 ; Definitions
